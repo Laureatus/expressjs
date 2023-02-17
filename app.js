@@ -8,7 +8,7 @@ function connectToDatabase(req, res) {
     var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'lorin'
+    password : 'password'
   });
 
 connection.connect();
